@@ -1,5 +1,5 @@
 # High School Sports Profile and Rankings 
-This project is a website that shows top 100 player profiles and rankings of high school basketball, baseball and football players across the US. The website and the data gathering was developed using Angular 11, .NET Core APIs, Python, MongoDB and Microsoft Azure.
+This project is a website that shows top 100 player profiles and rankings of high school basketball, baseball and football players across the US. The website and the data gathering was developed using Angular 11, .NET Core APIs, Python, MongoDB\Docker and Microsoft Azure.
 
 
 ## Data Sources:
@@ -16,6 +16,8 @@ Angular 11 - Provides the user interface to show player rankings, player profile
 .NET Core API - provides data to the UI and retrieves data from the medium( MongDB)
 
 Mongo DB - a dataase that will host the player rankings and profile data.
+
+Docker - used to host and run the Mongo DB.
 
 Python - a web scraper to scrape data from the data sources the app uses. Data is saved to our MongoDB instance.
 
